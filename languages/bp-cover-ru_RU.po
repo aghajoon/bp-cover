@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress cover\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-13 23:43+0100\n"
+"PO-Revision-Date: Mon Jul 27 2015 22:56:53 GMT+0300 (MSK)\n"
+"Last-Translator: Сэр Александр\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ru_RU\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: bp-cover-group.php:38
+#: bp-cover-group.php:149
+#: bp-cover.php:67
+msgid "Drag cover"
+msgstr "Перетащите обложку"
+
+#: bp-cover.php:113
+msgid "Gallery Cover"
+msgstr "Обложка"
+
+#: bp-cover-admin.php:81
+#: bp-cover-admin.php:99
+#: bp-cover-admin.php:126
+#: bp-cover-group.php:82
+#: bp-cover.php:126
+msgid "Delete"
+msgstr "Удалить"
+
+#: bp-cover-group.php:89
+msgid "Gallery empty"
+msgstr "Галлерея пуста"
+
+#: bp-cover-group.php:90
+msgid "you can upload image for cover group"
+msgstr "Для обложки вы можете закачать изображение"
+
+#: bp-cover-group.php:83
+#: bp-cover.php:122
+msgid "Select"
+msgstr "Выбрать"
+
+#: bp-cover.php:122
+msgid "Close"
+msgstr "Закрыть"
+
+#: bp-cover-group.php:251
+#: bp-cover.php:203
+#: bp-cover.php:276
+msgid "Upload Failed! Unable to write the image on server"
+msgstr "Ошибка закачки! Невозможно записать изображение на сервер"
+
+#: bp-cover-group.php:257
+#: bp-cover.php:209
+#: bp-cover.php:282
+msgid "Upload Failed! No image sent"
+msgstr "Ошибка закачки! Нет изображения для отправки\n"
+
+#: bp-cover.php:257
+#, c-format
+msgid "Upload Failed! Error was: %s"
+msgstr "Ошибка закачки! Ошибка: %s"
+
+#: bp-cover.php:270
+msgid "Upload Failed! Your photo must be larger than 150px"
+msgstr "Ошибка закачки! Ваше фото должно быть больше 150px"
+
+#: bp-cover.php:324
+#, c-format
+msgid "%s uploaded a new cover picture"
+msgstr "%s закачано как обложка"
+
+#: bp-cover-group.php:239
+#, c-format
+msgid "%s uploaded a new cover picture to the group %s"
+msgstr "%s закачано как обложка для группы %s"
+
+#: bp-cover-group.php:267
+#: bp-cover.php:308
+#, c-format
+msgid "The file you uploaded is too big. Please upload a file under %s"
+msgstr "Закачиваемый файл слишком велик. Используйте файлы меньше %s"
+
+#: bp-cover-group.php:277
+#: bp-cover.php:320
+#, c-format
+msgid "Max total images allowed %d in a cover gallery"
+msgstr "Разрешено только %d изображений для обложек"
+
+#: bp-cover-admin.php:14
+msgid "Bp cover"
+msgstr "Обложки\n"
+
+#: bp-cover-admin.php:110
+msgid "Max total cover"
+msgstr "Всего позволено обложек\n"
+
+#: bp-cover-admin.php:110
+msgid "Max total images allowed in a cover gallery"
+msgstr "Сколько можно закачать изображений"
+
+#: bp-cover-admin.php:118
+msgid "Max upload file size"
+msgstr "Максимальный размер закачиваемого файла"
+
+#: bp-cover-admin.php:111
+msgid "If empty field user can upload only 20 total images"
+msgstr ""
+"Если не указано, тогда пользователь может использовать не больше 20 "
+"изображений\n"
+
+#: bp-cover-admin.php:124
+msgid "Maximum file size (kb) that can be uploaded"
+msgstr "Максимальный размер файла (Кб)"
+
+#: bp-cover-admin.php:125
+msgid "If empty maximum file size 2M that can be uploaded"
+msgstr "Если пусто, тогда максимальный размер 2 Мб"
+
+#: bp-cover-admin.php:129
+msgid "Default avatar"
+msgstr "Аватар по-умолчанию"
+
+#: bp-cover-admin.php:96
+msgid "Bp cover Settings"
+msgstr "Настройки обложек"
+
+#: bp-cover-admin.php:147
+msgid "Default cover profile"
+msgstr "Обложка профиля по-умолчанию"
+
+#: bp-cover-admin.php:175
+#: bp-cover-admin.php:139
+#: bp-cover-admin.php:157
+msgid "Please upload an image"
+msgstr "Пожалуйста, закачайте изображение"
+
+#: bp-cover-admin.php:133
+#: bp-cover-admin.php:151
+#: bp-cover-admin.php:169
+msgid "Upload an image"
+msgstr "Закачать"
+
+#: bp-cover-admin.php:165
+msgid "Default cover group"
+msgstr "Обложка группы по-умолчанию"
+
+#: bp-cover-admin.php:182
+msgid "Save"
+msgstr "Сохранить"

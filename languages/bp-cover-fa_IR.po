@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-13 23:43+0100\n"
+"PO-Revision-Date: 2015-08-02 18:03+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: bp-cover-group.php:38
+#: bp-cover-group.php:149
+#: bp-cover.php:67
+msgid "Drag cover"
+msgstr "کاور را جابجا کنید"
+
+#: bp-cover.php:113
+msgid "Gallery Cover"
+msgstr "گالری کاور"
+
+#: bp-cover-admin.php:81
+#: bp-cover-admin.php:99
+#: bp-cover-admin.php:126
+#: bp-cover-group.php:82
+#: bp-cover.php:126
+msgid "Delete"
+msgstr "حذف"
+
+#: bp-cover-group.php:89
+msgid "Gallery empty"
+msgstr "گالری خالیست"
+
+#: bp-cover-group.php:90
+msgid "you can upload image for cover group"
+msgstr "شما میتوانید کاور جدید بارگزاری کنید"
+
+#: bp-cover-group.php:83
+#: bp-cover.php:122
+msgid "Select"
+msgstr "انتخاب به عنوان کاور"
+
+#: bp-cover.php:95
+msgid "Set Cover"
+msgstr "انتخاب کاور"
+
+#: bp-cover.php:101
+msgid "Set Cover group"
+msgstr "انتخاب کاور گروه"
+
+#: bp-cover.php:122
+msgid "Close"
+msgstr "بستن"
+
+#: theme.php:34
+#: theme.php:162
+msgid "Position saved"
+msgstr "تغییرات ذخیره شد."
+
+#: theme.php:58
+#: theme.php:75
+msgid "Upload"
+msgstr "بارگزاری"
+
+#: theme.php:62
+msgid "Gallery"
+msgstr "گالری "
+
+#: theme.php:65
+msgid "Edit Position"
+msgstr "جابجایی کاور"
+
+#: bp-cover-group.php:251
+#: bp-cover.php:203
+#: bp-cover.php:276
+msgid "Upload Failed! Unable to write the image on server"
+msgstr "سرور اجازه بارگزاری نمی دهد"
+
+#: bp-cover-group.php:257
+#: bp-cover.php:209
+#: bp-cover.php:282
+msgid "Upload Failed! No image sent"
+msgstr "عکس ارسال نشد"
+
+#: bp-cover.php:257
+msgid "Upload Failed! Error was: %s"
+msgstr "خطا در: %s"
+
+#: bp-cover.php:270
+msgid "Upload Failed! Your photo must be larger than 150px"
+msgstr "عکس شما باید حداقل 150 پیکسل باشد"
+
+#: bp-cover.php:324
+msgid "%s uploaded a new cover picture"
+msgstr "%s کاور جدید اضافه کرد"
+
+#: bp-cover-group.php:239
+msgid "%s uploaded a new cover picture to the group %s"
+msgstr "%s کاور جدید به گروه %s اضافه کرد"
+
+#: bp-cover-group.php:267
+#: bp-cover.php:308
+msgid "The file you uploaded is too big. Please upload a file under %s"
+msgstr "فایل شما بسیار بزرگ است لطفا فایلی با حجم کمتر از  %s انتخاب کنید"
+
+#: bp-cover-group.php:277
+#: bp-cover.php:320
+msgid "Max total images allowed %d in a cover gallery"
+msgstr "شما حداکثر میتوانید %d کاور بارگزاری کنید"
+
+#: bp-cover-admin.php:14
+#: bp-cover-admin.php:73
+msgid "Bp cover"
+msgstr "افزونه کاور"
+
+#: bp-cover-admin.php:74
+msgid "Skins"
+msgstr "پوسته"
+
+#: bp-cover-admin.php:201
+#: bp-cover-admin.php:75
+msgid "Other plugins"
+msgstr "افزونه  های دیگر"
+
+#: bp-cover-admin.php:80
+msgid "Max total cover"
+msgstr "حداکثر تعداد کاور"
+
+#: bp-cover-admin.php:83
+msgid "Max total images allowed in a cover gallery"
+msgstr "تعداد کاور را تعیین کنید"
+
+#: bp-cover-admin.php:88
+msgid "Max upload file size"
+msgstr "حداکثر حجم فایل"
+
+#: bp-cover-admin.php:84
+msgid "If empty field user can upload only 20 total images"
+msgstr "اگر فیلد را خالی بگذارید کاربر 20 عکس میتواند بارگزاری کند"
+
+#: bp-cover-admin.php:91
+msgid "Maximum file size (kb) that can be uploaded"
+msgstr "حجم فایل بارگزاری را بر حسب کیلو بایت تعیین کنید"
+
+#: bp-cover-admin.php:92
+msgid "If empty maximum file size 2M that can be uploaded"
+msgstr "اگر فیلد را خالی بگذارید فایلهای کمتر از 2مگابایت آپلود می شوند"
+
+#: bp-cover-admin.php:96
+msgid "Default avatar"
+msgstr "آواتار پیش فرض"
+
+#: bp-cover-admin.php:70
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: bp-cover-admin.php:113
+msgid "Default cover profile"
+msgstr "کاور پیش فرض پروفایل"
+
+#: bp-cover-admin.php:106
+#: bp-cover-admin.php:139
+#: bp-cover-admin.php:123
+msgid "Please upload an image"
+msgstr "لطفا یک عکس بارگزاری کنید"
+
+#: bp-cover-admin.php:133
+#: bp-cover-admin.php:100
+#: bp-cover-admin.php:117
+msgid "Upload an image"
+msgstr "بارگزاری"
+
+#: bp-cover-admin.php:129
+msgid "Default cover group"
+msgstr "کاور پیش فرض گروه"
+
+#: theme.php:65
+#: bp-cover-admin.php:146
+#: bp-cover-admin.php:195
+msgid "Save"
+msgstr "ذخیره"
+
+#: bp-cover-admin.php:153
+msgid "Skins for cover"
+msgstr "پوسته کاور"
+
+#: bp-cover-admin.php:164
+msgid "Screenshot"
+msgstr "پیش نمایش"
+
+#: bp-cover-admin.php:165
+msgid "Name"
+msgstr "نام"
+
+#: bp-cover-admin.php:166
+msgid "Version"
+msgstr "نسخه"
+
+#: bp-cover-admin.php:167
+msgid "Description"
+msgstr "توضیحات"
+
+#: bp-cover-admin.php:168
+msgid "Action"
+msgstr "تنظیم"
+
+#: bp-cover-admin.php:182
+msgid "In Use"
+msgstr "در حال استفاده"
+
+#: bp-cover-admin.php:201
+msgid "See all plugins"
+msgstr "نمایش همه"
+
+#: bp-cover-admin.php:235
+msgid "Our catalog of WP Product can be found on webcaffe.ir here: <a href='%s'>WP Product </a>"
+msgstr "برای نمایش تمامی محصولات به <a href='%s'>وبــ کافه  </a> مراجعه نمایید."
+

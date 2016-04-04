@@ -1,0 +1,423 @@
+/*
+	Skin name: Mani
+	Description: Mani skin for bp-cover
+	Author: Aghajoon
+	Author url: http://www.webcaffe.ir
+	Version: 1.5
+*/
+#item-header-content .user-nicename , 
+#item-header-content span.activity ,
+#latest-update,
+#item-header-avatar {
+   display:none !important ;
+   
+}
+
+
+#item-buttons{
+   display:block;
+   
+}
+
+ #buddypress div#item-header div.generic-button {
+    float: left;
+    margin: 10px 10px 0px 0px;
+   
+}
+
+.panel {
+    height: 300px;
+    border: medium none;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px #DADADA;
+    border-radius: 4px;
+    margin-bottom:10px;
+
+}
+.panel .image-upload-container {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+.panel .image-upload-container img{
+		min-height: 300px!important ;
+		 min-width: 800px;
+       
+    }
+/* If the browser window is 800px */
+
+ @media (max-width:800px) {
+
+	.panel .image-upload-container img{
+
+        margin-left:-50px;
+    }
+
+}
+/* If the browser window is 600px */
+@media (max-width:600px) {
+
+.img-profile-data h1,.img-profile-data h2 {
+        margin-bottom: 60px!important ;
+		}
+ .image-upload-buttons-avatar {
+    right: 33%!important; 
+    bottom: 35%!important;
+}
+	.panel .image-upload-container img{
+
+        margin-left:-180px!important;
+    }
+    .ava, .ava img{
+        width: 120px!important ;
+		height: 120px!important ;
+    }
+
+}
+/* If the browser window is 400px  */
+@media (max-width:400px) {
+	
+.img-profile-data h1,.img-profile-data h2 {
+        margin-bottom: 80px!important ;
+		}
+ .image-upload-buttons-avatar {
+    right: 33%!important; 
+    bottom: 35%!important;
+}
+ 	.panel .image-upload-container img{
+
+        margin-left:-220px!important;
+    }   
+.ava, .ava img{
+        width: 100px!important ;
+		height: 100px!important ;
+    }
+
+}
+@media (max-width:300px) {
+	.bpci-loading{
+	top:75%!important ;
+	right:35%!important ;
+
+}
+	.img-profile-data h1,.img-profile-data h2 {
+        margin-bottom: 90px!important ;
+		}
+  .image-upload-buttons-avatar {
+    right: 30%!important; 
+    bottom: 30%!important;
+	}
+ 	.panel .image-upload-container img{
+
+        margin-left:-250px!important;
+    }  
+     .ava, .ava img{
+        width: 80px!important ;
+		height: 80px!important ;
+    }
+
+}
+ .ava img{
+  width:140px;
+  height:140px;
+  border-radius: 100px;
+  border: 3px solid #FFF;
+ 
+ }
+.profile-user-photo{
+  text-align: center;
+  
+}
+
+.img-rounded {
+    border-radius: 0px;
+}
+.profile-user-photo-container {
+    width:150px;
+    top:25%;
+    border-radius: 100px;
+    position:    absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.panel-profile-header {
+    position: relative;
+    border: 3px solid #FFF;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px; 
+
+
+}
+
+ .panel-profile-header .img-profile-header-background {
+    border-radius: 3px;     
+
+}
+.panel-profile-header .img-profile-data {
+    height:auto;
+    bottom: 0px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #FFF;
+    width:100%;
+    background: linear-gradient(to bottom, transparent 0%, transparent 1%, rgba(0, 0, 0, 0.58) 100%) repeat scroll 0% 0% transparent;
+    position: absolute;
+    padding-top: 20px;
+    text-align: left !important;
+    
+}
+.panel-profile-header .img-profile-data h1 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 40px;
+    color: #FFF!important;
+    text-align: center;
+}
+.panel-profile-header .img-profile-data h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-left: 170px;
+    color: #FFF!important;
+}
+
+.image-upload-buttons {
+    right: 0.2%;
+    bottom: 1%;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+
+}
+.image-upload-buttons-avatar {
+    right: 40%; 
+    bottom: 40%;
+    position: absolute;
+    display: none;
+    opacity: 1;
+
+}
+.ava:hover {
+    opacity: 0.5;
+
+}
+
+
+#bannerfileupload input[type="file"],#profilefileupload input[type="file"] {
+    width:0px;
+	  margin:0px;
+    float:left;
+}
+#uploadavatar , #uploadcover{
+    margin-right:0px;
+    margin-top:0px;   
+}
+
+.ava .bpci-loading{
+	top:65%;
+	right:20%;
+
+}
+.image-upload-container .bpci-loading{
+    top:55%;
+	right:4%;
+}
+#profile-mass{ 
+    top:10%;    
+}
+#mass-drag{ 
+	  top:10%;      
+}
+.mass{
+  display:block !important;
+}
+
+.v-center {
+  height: 100vh;
+  width: 100%;
+  display: table;
+  position: relative;
+  text-align: center;
+}
+
+.v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: -10%;
+}
+
+.btn-cover {
+
+  font-size: 3vmin;
+  padding: 0.75em 1.5em!important;
+  background-color: #fff!important;
+  border: 1px solid #bbb!important;
+  color: #333!important;
+  text-decoration: none!important;
+  display: inline!important;
+  border-radius: 4px!important;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+.btn-cover:hover {
+  background-color: #ddd;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+.btn-small { 
+    background: #FFF none repeat scroll 0% 0%;
+     border: 1px solid #CCC;
+color: #777;
+font-size: small;
+cursor: pointer;
+outline: 0px none;
+padding: 4px 10px;
+text-align: center;
+text-decoration: none;
+}
+
+
+.modal-box {
+ 
+  position: fixed;
+  z-index: 10000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+}
+@media (min-width: 32em) {
+
+.modal-box { width: 70%; }
+}
+
+.modal-box header,
+.modal-box .modal-header {
+  padding: 1.25em 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 { margin: 0; }
+
+.modal-box .modal-body {
+  padding: 2em 1em;
+  max-height: 400px !important;  
+  overflow-y: auto !important;
+ 
+}
+
+.modal-box footer,
+.modal-box .modal-footer {
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 1) !important;
+}
+
+a.close {
+  line-height: 1;
+  font-size: 1.5em;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+  color: #bbb;
+}
+
+a.close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+#bp-cover-pic .select-pic { 
+  overflow: hidden;
+  margin-left:0px;
+  width:auto;
+  height:110px;
+}
+#bp-cover-pic .gallery-cover { 
+  float:left;
+  margin-left:5px;
+  list-style: none ;
+}
+
+#bp-cover-pic .gallery-cover img {
+  margin-top:-20px;
+  height:100px !important;
+  width:auto;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.pic-cover a:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=40); 
+}
+.gallery-cover .delete-cover {      
+    border-radius: 4px;
+   -moz-user-select: none;
+    padding:0px;
+    position: relative;
+    margin-left:2px;
+    top:5px;
+    text-decoration: none;
+    z-index: 99999;	   
+    background:rgba(0, 0, 0, 0.7);  
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -moz-user-select: none;
+    
+}	
+.gallery-cover .delete-cover a{ 
+    color: #FFF;  
+    text-decoration: none;	
+}
+.gallery-cover .delete-cover a:hover{     
+    color: #00B9F7; 
+}	
+
+.gallery-cover .dashicons {
+
+  margin-left: 2px;
+}
+.modal-box h3{    
+  width:50%;
+  display: inline-block;  
+}
+#buddypress div#item-header{
+    text-align: center;
+}

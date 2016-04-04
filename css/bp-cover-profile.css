@@ -1,0 +1,364 @@
+
+#item-header-content .user-nicename , 
+#item-header-content span.activity ,
+#latest-update,
+#item-header-avatar ,.toggle-header{
+   display:none !important ;
+   
+}
+
+
+#item-buttons{
+   display:block;
+   
+}
+
+ #buddypress div#item-header div.generic-button {
+    float: left;
+    margin: 10px 10px 0px 0px;
+   
+}
+
+.panel {
+   
+    border: medium none;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px #DADADA;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom:10px;
+
+}
+.panel .image-upload-container {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+.panel .image-upload-container img{
+		min-height: 300px!important ;
+		
+    }
+/* If the browser window is 800px */
+
+ @media (max-width:800px) {
+    .panel .image-upload-container {
+        height: 250px!important ;
+		}
+		
+}
+/* If the browser window is 600px */
+@media (max-width:600px) {
+    .panel .image-upload-container {
+         height: 200px!important ;
+    }
+	
+}
+/* If the browser window is 400px  */
+@media (max-width:400px) {
+    .panel .image-upload-container {
+       height: 150px!important ;
+
+    }
+    
+
+}
+ .ava , .ava img{
+  width:140px;
+  height:140px;
+ 
+ }
+/* If the browser window is 800px */
+@media (max-width:800px) {
+   .ava, .ava img{
+        width: 100px!important ;
+		height: 100px!important ;
+    }
+	.img-profile-data h1,.img-profile-data h2 {
+        padding-left: 130px!important ;
+}
+}
+/* If the browser window is 600px  */
+@media (max-width:600px) {
+    .ava,.ava img{
+         width: 100px!important ;
+		 height: 100px!important ;
+    }
+	.img-profile-data h1,.img-profile-data h2 {
+         padding-left: 130px!important ;
+}
+}
+/* If the browser window is 400px  */
+@media (max-width:400px) {
+    .ava,.ava img{
+       width: 80px!important ;
+	   height: 80px!important ;
+    }
+	.img-profile-data h1,.img-profile-data h2  {
+       padding-left: 110px!important ;
+}
+
+}
+
+.img-rounded {
+    border-radius: 0px;
+}
+.profile-user-photo-container {
+    bottom:-20px;
+    left: 20px;
+    position:  absolute; 
+    border: 3px solid #FFF;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px; 
+
+}
+
+.panel-profile-header {
+    position: relative;
+    border: 3px solid #FFF;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px; 
+
+
+}
+
+ .panel-profile-header .img-profile-header-background {
+    border-radius: 3px;     
+
+}
+.panel-profile-header .img-profile-data {
+    height:auto;
+    bottom: 0px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #FFF;
+    width:100%;
+    background: linear-gradient(to bottom, transparent 0%, transparent 1%, rgba(0, 0, 0, 0.58) 100%) repeat scroll 0% 0% transparent;
+    position: absolute;
+    padding-top: 20px;
+    text-align: left !important;
+    
+}
+.panel-profile-header .img-profile-data h1 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    color: #FFF!important;
+    padding-left: 170px;
+}
+.panel-profile-header .img-profile-data h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-left: 170px;
+    color: #FFF!important;
+}
+
+
+.image-upload-buttons {
+    right: 2px;
+    bottom: 2px;
+    position: absolute;
+    display: none;
+
+}
+
+#bannerfileupload input[type="file"],#profilefileupload input[type="file"] {
+    width:0px;
+	  margin:0px;
+    float:left;
+}
+#uploadavatar , #uploadcover{
+    margin-right:0px;
+    margin-top:0px;   
+}
+
+.bpci-loading{
+   background: url('../images/bp-ajax-loader.gif') no-repeat scroll 0% 0% transparent !important;
+    width: 30px !important;
+    height: 14px !important;
+    position: absolute;
+    left: 50%;
+	top:50%;
+   
+}
+.delete-loader {	
+    background: url('../images/bp-ajax-loader.gif') no-repeat scroll 0% 0% transparent !important;
+    width: 30px !important;
+    height: 14px !important;
+    margin-top: 010px !important;
+  	display: none;
+   
+}
+
+.gallery-cover .delete-cover a{   
+    color: #FFF;   
+    border-radius: 4px;
+   -moz-user-select: none;
+    padding:0px 5px;
+    position: relative;
+    margin-top: 0px !important;
+    margin-left:0px;
+    top:20px;
+    text-decoration: none;
+    z-index: 99999;	     
+}	
+
+
+#profile-mass{
+    padding: 2px 6px;
+    color: #FFF;
+    background-color: red;
+    border-color: #46B8DA;
+    border-radius: 4px;
+    -moz-user-select: none;
+    position: absolute; 
+    left: 42%;
+	  top:20%;
+    opacity: 0.5;
+    display: none;
+    
+}
+.mass{
+  display:block !important;
+}
+
+.v-center {
+  height: 100vh;
+  width: 100%;
+  display: table;
+  position: relative;
+  text-align: center;
+}
+
+.v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: -10%;
+}
+
+.btn-cover {
+
+  font-size: 3vmin;
+  padding: 0.75em 1.5em!important;
+  background-color: #fff!important;
+  border: 1px solid #bbb!important;
+  color: #333!important;
+  text-decoration: none!important;
+  display: inline!important;
+  border-radius: 4px!important;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+.btn-cover:hover {
+  background-color: #ddd;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+.btn-small {
+  padding: .75em 1em;
+  font-size: 0.8em;
+}
+
+.modal-box {
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+}
+@media (min-width: 32em) {
+
+.modal-box { width: 70%; }
+}
+
+.modal-box header,
+.modal-box .modal-header {
+  padding: 1.25em 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 { margin: 0; }
+
+.modal-box .modal-body {
+  padding: 2em 1em;
+  max-height: 400px !important;  
+  overflow-y: auto !important;
+ 
+}
+
+.modal-box footer,
+.modal-box .modal-footer {
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+}
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+a.close {
+  line-height: 1;
+  font-size: 1.5em;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+  color: #bbb;
+}
+
+a.close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+#bp-cover-pic .select-pic { 
+  overflow: hidden;
+  margin-left:0px;
+  width:auto;
+  height:110px;
+}
+#bp-cover-pic .gallery-cover { 
+  float:left;
+  margin-left:5px;
+  list-style: none ;
+}
+
+#bp-cover-pic .gallery-cover img {
+ 
+  height:100px !important;
+  width:auto;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.pic-cover a:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=40); 
+}
+

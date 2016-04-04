@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-13 23:43+0100\n"
+"PO-Revision-Date: 2015-02-12 16:37+0330\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bp-cover.php:67
+msgid "Drag cover"
+msgstr ""
+
+#: bp-cover.php:113
+msgid "Gallery Cover"
+msgstr ""
+
+#: bp-cover.php:122
+msgid "Select"
+msgstr ""
+
+#: bp-cover.php:122
+msgid "Close"
+msgstr ""
+
+#: bp-cover.php:203
+#: bp-cover.php:276
+msgid "Upload Failed! Unable to write the image on server"
+msgstr ""
+
+#: bp-cover.php:209
+#: bp-cover.php:282
+msgid "Upload Failed! No image sent"
+msgstr ""
+
+#: bp-cover.php:257
+msgid "Upload Failed! Error was: %s"
+msgstr ""
+
+#: bp-cover.php:270
+msgid "Upload Failed! Your photo must be larger than 150px"
+msgstr ""
+
+#: bp-cover.php:324
+msgid "%s uploaded a new cover picture"
+msgstr ""
+

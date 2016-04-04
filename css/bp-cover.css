@@ -1,0 +1,204 @@
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont.eot?v=3.2.1');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../inc/font-awesome/font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../inc/font-awesome/font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.bp-cover ,.bp-ava {    
+    width:300px;
+    height: auto;
+}
+
+.uploadBox .dashicons-yes {
+    color: #fff;
+
+}
+.btn-sm, .btn-xs {   
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.uploadBox a {   
+    color: #999!important;
+    text-shadow:none!important;
+    text-decoration: none!important;
+}
+.uploadBox a:hover {   
+    color: #00B9F7!important;
+}
+.edit-cover{
+    display:none;
+}
+
+.btnc {
+     float:right;    
+    display: inline-block;
+    padding: 2px 4px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -moz-user-select: none;
+     margin-left:1px;
+    text-decoration: none;
+}
+.bpci-loading{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	user-select:none
+}
+.uploadFile {    
+    opacity: 0;  
+    width:0!important;
+    height: 0;
+    float:right;
+}
+.bpci-loading{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	margin-top:-36px;
+	z-index:1044;
+	font-size:0;
+	width:36px;
+	height:36px;
+	margin-left:auto;
+	margin-right:auto
+}
+
+.bpci-loading:before{
+	content:'Loading?';
+	position:absolute;
+	width:30px;
+	height:30px
+}
+
+.bpci-loading:not(:required):before{
+	content:'';
+	border-radius:50%;
+	border:3px solid rgba(255,255,255,0.27);
+	border-top-color:rgba(255,255,255,0.9);
+	animation:spinner .6s linear infinite;
+	-webkit-animation:spinner .6s linear infinite
+}
+@keyframes spinner{
+	to{
+		transform:rotate(360deg)
+	}
+
+}
+
+@-webkit-keyframes spinner{
+	to{
+		-webkit-transform:rotate(360deg)
+	}
+
+}
+
+.image-cover{
+     position: relative;    
+     background-repeat: no-repeat;	
+	 background-size:cover;
+	 background-position: center center ;     
+	 background-image: url("../images/bg-profile.jpg"); 
+	 height:300px;
+}
+
+#profile-mass{
+    padding: 6px 6px!important;
+    color: #FFF;
+    background-color: red;
+    border-color: #46B8DA;
+    border-radius: 4px;
+    -moz-user-select: none;
+    position: absolute; 
+    text-align: center;
+    width:150px;	
+	margin-left:auto;
+	margin-right:auto;
+	top:20%;
+	left:0;
+    right:0;
+    opacity: 0.5;
+    display: none;
+    
+}
+#profile-mass:after{
+   margin-left: 5px;
+   content: "\f156";
+   display: inline-block;
+   -webkit-font-smoothing: antialiased;
+   font: normal 20px/1 'dashicons';
+   vertical-align: middle;  
+    
+    
+}
+#mass-drag{
+    padding:6px 6px!important;
+    color: #FFF;
+    background-color: green;
+    border-color: #46B8DA;
+    border-radius: 4px;
+    -moz-user-select: none;
+    position: absolute; 
+	top:20%;
+    opacity: 0.5;
+    display: none;
+    text-align: center;
+    width:200px;	
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+    right:0;
+   
+}
+#mass-drag:after{
+   margin-left: 5px;
+   content: "\f147";
+   display: inline-block;
+   -webkit-font-smoothing: antialiased;
+   font: normal 20px/1 'dashicons';
+   vertical-align: middle;  
+}
+.mass{
+  display:block !important;
+}
+.upload-cover{
+ 
+  margin-bottom: 20px;
+  margin:0px !important;
+  padding: 15px 0 0 0  !important;
+}
+#buddypress #rtmedia-single-media-container.rtmedia-single-media .rtmcover {
+    background: transparent none repeat scroll 0% 0%;
+    border: 0px none;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0px;
+    text-shadow: 0px 0px 0px;
+	font-size: small;
+    cursor: pointer;
+    outline: 0px none;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+#buddypress #rtmedia-single-media-container.rtmedia-single-media .rtmcover:hover{
+	background:rgba(255,255,255,0.2);
+	color:rgba(255,255,255,0.8)
+}
